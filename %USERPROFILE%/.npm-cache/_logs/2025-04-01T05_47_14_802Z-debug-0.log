@@ -1,0 +1,48 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.2.0
+2 info using node@v22.13.1
+3 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DELL\.npmrc
+5 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install firebase-tools
+7 verbose argv "install" "--global" "firebase-tools"
+8 verbose logfile logs-max:10 dir:C:\Users\DELL\Downloads\Zos honey\Zos Hoeny\%USERPROFILE%\.npm-cache\_logs\2025-04-01T05_47_14_802Z-
+9 verbose logfile C:\Users\DELL\Downloads\Zos honey\Zos Hoeny\%USERPROFILE%\.npm-cache\_logs\2025-04-01T05_47_14_802Z-debug-0.log
+10 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest firebase-tools@*
+14 silly packumentCache full:https://registry.npmjs.org/firebase-tools cache-miss
+15 http fetch GET https://registry.npmjs.org/firebase-tools attempt 1 failed with ENOTFOUND
+16 http fetch GET https://registry.npmjs.org/firebase-tools attempt 2 failed with ENOTFOUND
+17 http fetch GET https://registry.npmjs.org/firebase-tools attempt 3 failed with ENOTFOUND
+18 http fetch GET https://registry.npmjs.org/firebase-tools attempt 4 failed with ENOTFOUND
+19 http fetch GET https://registry.npmjs.org/firebase-tools attempt 5 failed with ENOTFOUND
+20 http fetch GET https://registry.npmjs.org/firebase-tools attempt 6 failed with ENOTFOUND
+21 silly placeDep ROOT firebase-tools@ OK for:  want: *
+22 verbose type system
+23 verbose stack FetchError: request to https://registry.npmjs.org/firebase-tools failed, reason: getaddrinfo ENOTFOUND proxy.company.com
+23 verbose stack     at ClientRequest.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+23 verbose stack     at ClientRequest.emit (node:events:524:28)
+23 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+23 verbose stack     at _destroy (node:_http_client:898:9)
+23 verbose stack     at onSocketNT (node:_http_client:918:5)
+23 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+24 error code ENOTFOUND
+25 error syscall getaddrinfo
+26 error errno ENOTFOUND
+27 error network request to https://registry.npmjs.org/firebase-tools failed, reason: getaddrinfo ENOTFOUND proxy.company.com
+28 error network This is a problem related to network connectivity.
+28 error network In most cases you are behind a proxy or have bad network settings.
+28 error network
+28 error network If you are behind a proxy, please make sure that the
+28 error network 'proxy' config is set properly.  See: 'npm help config'
+29 silly unfinished npm timer reify 1743486435344
+30 silly unfinished npm timer reify:loadTrees 1743486435348
+31 verbose cwd C:\Users\DELL\Downloads\Zos honey\Zos Hoeny
+32 verbose os Windows_NT 10.0.19045
+33 verbose node v22.13.1
+34 verbose npm  v11.2.0
+35 verbose exit 1
+36 verbose code 1
+37 error A complete log of this run can be found in: C:\Users\DELL\Downloads\Zos honey\Zos Hoeny\%USERPROFILE%\.npm-cache\_logs\2025-04-01T05_47_14_802Z-debug-0.log
